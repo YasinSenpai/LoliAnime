@@ -248,9 +248,10 @@ if($hentai_kontrol->rowCount() == 0){
                                     <div class="form-outline col-md-11">
                                         <?php 
                                         if(isset($_SESSION['isim'])){
-                                            echo '<input type="text"  id="form1" class="form-control text-white col-md-12" name="yorum" />
-                                            <label class="form-label text-white" for="form1">Yorum yaz</label>
-                                            </div>';
+                                            echo '<div class="form-outline">
+                                          <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                                          <label class="form-label" for="textAreaExample">Message</label>
+                                        </div>';
                                         }else{
                                             echo '<div class="alert alert-danger"><strong>Dikkat!</strong> Yorum yazabilmeniz için giriş yapmanız gerekmektedir...</div>';
                                         }

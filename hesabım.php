@@ -92,6 +92,9 @@
             <div class="card col-md-6 background text-white mx-1" style="max-height: 290px;">
                 <div class="card-body text-center">
                     <h3 class="fontlu">Yorumlarım</h3>
+                    <?php
+
+                    ?>
                     <div class="alert alert-warning align-self-center alert-dismissible fade show col-md-12 f-right" role="alert" style="margin-top: 60px;">
                         <strong>Dikkat!</strong> Burada gösterilebilicek birşey yok!
                     </div>
